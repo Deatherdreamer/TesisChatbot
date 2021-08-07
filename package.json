@@ -1,0 +1,16 @@
+{
+  "name": "chatbot-20210726t124855z-001",
+  "version": "1.0.0",
+  "description": "Servidor tesis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Chatbot",
+    "servidor",
+    "messenger"
+  ],
+  "author": "David Sztajnworc",
+  "license": "ISC"
+}
