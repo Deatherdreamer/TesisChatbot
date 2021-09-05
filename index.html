@@ -2,7 +2,7 @@
 <html style="font-size: 16px;">
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width-device-width, initial-scale=1">
     <meta charset="utf-8">
     <meta name="keywords" content="Advertising agency">
     <meta name="description" content="">
@@ -18,11 +18,6 @@
 
 
 
-
-
-
-
-
     <script type="application/ld+json">
         {
             "@context": "http://schema.org",
@@ -34,6 +29,20 @@
     <meta name="theme-color" content="#29b7dd">
     <meta property="og:title" content="Tesis">
     <meta property="og:type" content="website">
+
+    <style>
+        df-messenger {
+         --df-messenger-bot-message: #696969;
+         --df-messenger-button-titlebar-color: #4B0082;
+         --df-messenger-chat-background-color: #F8F8FF;
+         --df-messenger-font-color: white;
+         --df-messenger-send-icon: #ADD8E6;
+         --df-messenger-user-message: #8A2BE2;
+         --df-messenger-input-font-color: white;
+         --df-messenger-input-box-color: #8A2BE2;
+         --df-messenger-input-placeholder-font-color: #D3D3D3;
+        ;
+      </style>
 </head>
 
 <body data-home-page="https://website557635.nicepage.io/Tesis.html?version=01e025f7-1efd-469f-a007-0b2eef42bc23" data-home-page-title="Tesis" class="u-body u-overlap">
@@ -296,8 +305,10 @@
     </section>
     <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
 <df-messenger
-  intent="WELCOME"
-  chat-title="BuscadorCursos"
+  intent="INICIO"
+  chat-title="Asistente Virtual"
+  expand="True"
+  chat-icon="https://www.pngkey.com/png/full/752-7520513_receipt-bot.png"
   agent-id="520073d6-eb35-4cc9-a3cb-fb8559415232"
   language-code="es"
 ></df-messenger>
